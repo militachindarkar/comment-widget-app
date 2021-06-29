@@ -1,0 +1,65 @@
+.comments-container {
+    width:666px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border-bottom: 0.5px solid lightgray;
+}
+
+.comment-block{
+    margin: 0.25em 0;
+    width: 100%;
+    padding: 0.3em 0.4em 0.3em 0.5em;
+    box-sizing: border-box;
+}
+
+.level-2{
+    padding: 0.3em 0.4em 0.3em 2em;
+}
+
+.level-3{
+    padding: 0.3em 0.4em 0.3em 3.5em;
+}
+
+.commnet-area {
+    margin-top: 0.1em;
+    margin-bottom: 0.5em;
+    overflow-wrap: break-word;
+}
+
+.action-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.time-stamp {
+    font-size: 9px;
+    padding-right: 0.5em;
+}
+
+.edit-btn, .delete-btn, .like-btn, .dislike-btn, .reply-btn {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.edit-btn {
+    color: royalblue;
+}
+
+.like-btn {
+    color: lightseagreen;
+}
+
+.dislike-btn {
+    color: lightcoral;
+}
+
+.reply-btn {
+    color: grey;
+}

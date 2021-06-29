@@ -1,0 +1,46 @@
+.editor-container {
+    margin: 1em 1em 0.5em 1em;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+form {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+textarea {
+    margin:0.25em;
+    width:500px;
+    resize: none;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.add-btn {
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 60px;
+    border-radius: 10%;
+    margin: 0.25em;
+}
+.cancel-btn {
+    background-color: white;
+    border: 2px solid black;
+    height: 30px;
+    width: 60px;
+    border-radius: 10%;
+    margin: 0.25em;
+}
+.add-btn:disabled {
+    border: 2px solid gray;
+}
+
+.no-commnets {
+    text-align: center;
+}
