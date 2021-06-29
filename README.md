@@ -1,3 +1,9 @@
+#Key features of comment widget app.
+1. Allows 3 level reply commenting.
+2. Edit and Delete replies and comments.
+3. Like and Dislike comments.
+4. Stores data in local storage.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
